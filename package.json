@@ -1,0 +1,21 @@
+{
+  "name": "3drender",
+  "version": "1.0.0",
+  "description": "A tool to render STL and glTF/GLB 3D models to PNG images.",
+  "main": "3drender.js",
+  "type": "module",
+  "bin": {
+    "3drender": "./inde.js"
+  },
+  "scripts": {
+    "start": "node 3drender.js"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "canvas": "^2.11.2",
+    "gl": "^8.1.0",
+    "three": "^0.152.2",
+    "yargs": "^17.7.2"
+  }
+}
