@@ -1,7 +1,7 @@
 # 3drenderer
 A 3D (glb and stl) to image (png) generator
 
-<img src="https://github.com/gabriel-lucas/3drenderer/blob/main/output2.png?raw=true" alt="3D duck model" width="400">
+<img src="https://github.com/gabriel-lucas/3drenderer/blob/main/output2.png?raw=true" alt="3D duck model" width="800">
 
 ## Installation instructions
 Install dependencies
