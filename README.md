@@ -1,2 +1,2 @@
-# 3drederer
+# 3drenderer
 A 3D (glb and stl) to image (png) generator
