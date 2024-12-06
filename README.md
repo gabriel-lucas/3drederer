@@ -17,5 +17,5 @@ Install xvfb
 Execute
 
 ```
- xvfb-run -s "-ac -screen 0 1280x1024x24" node 3drenderer.js duck.glb 800x600 salida.png
+ xvfb-run -s "-ac -screen 0 1280x1024x24" node 3drenderer.js model/duck.glb 800x600 output2.png
 ```
