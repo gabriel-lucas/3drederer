@@ -137,13 +137,18 @@ canvas.style = {};
 canvas.style.width = `${width}px`;
 canvas.style.height = `${height}px`;
 
-const context = gl(width, height, { preserveDrawingBuffer: true });
-if (!context) {
-  console.error("Failed to create WebGL context.");
+let context;
+try{
+  console.log("Width ", width);
+  console.log("Height ", height);
+  context = gl(width, height, { preserveDrawingBuffer: true });
+  console.log("Context ", context);
+} catch (error) {
+  console.error("Failed to create WebGL context.");  
+  console.error('Error:', error);
   process.exit(1);
-}else{
-  //console.log("Context created correctly", context);
 }
+
 
 const renderer = new THREE.WebGLRenderer({
   antialias: true,
